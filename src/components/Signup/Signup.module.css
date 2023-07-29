@@ -1,0 +1,70 @@
+.container{
+    height: 100%;
+    min-height: 100vh;
+    /* min-width: 215vh; */
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.innerBox{
+    min-width: 400px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .error{
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: red;
+    text-align: center;
+}
+
+.footer button{
+    outline: none;
+    border: none;
+    background-color: pink;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px 16px;
+    width: 100%;
+}
+
+.footer button:disabled{
+    background-color: grey !important;
+}
+
+.footer button:hover{
+    background-color: rgb(255, 168, 182);
+}
+
+.footer p{
+    font-weight: 700;
+    color: #000;
+}
+
+.footer p span a{
+    font-weight: bold;
+    color:  rgb(255, 126, 148);
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-decoration: none;
+}
